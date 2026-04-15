@@ -1,0 +1,30 @@
+{
+  "name": "哒哒宝贝 - 幼儿互动乐园",
+  "short_name": "哒哒宝贝",
+  "description": "专为幼儿设计的互动学习应用，包含问一问、看一看、画一画、拍一拍四大功能模块",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFAFC",
+  "theme_color": "#FF88BB",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "images/question.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/view.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "kids"],
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "scope": "/",
+  "display_override": ["standalone", "fullscreen"],
+  "prefer_related_applications": false
+}
